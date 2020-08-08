@@ -1,0 +1,4 @@
+baseURL = "https://akrisanov.com/"
+languageCode = "ru-ru"
+title = "Заметки (не) разработчика"
+theme = "hyde-hyde"
