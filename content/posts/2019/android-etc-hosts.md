@@ -7,7 +7,7 @@ draft: false
 
 Следующие действия помогают облегчить процесс отладки приложения если у вас нет устройства под рукой:
 
-```shell
+```
 $ android-sdk-macosx/tools/emulator -avd <avdname> -writable-system
 $ ./adb root
 $ ./adb remount

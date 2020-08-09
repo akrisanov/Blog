@@ -8,7 +8,7 @@ draft: false
 Иногда при обновлении PostgreSQL через Homebrew возникает следующая проблема.
 "Починить" ее можно удалив файл, содержащий идентификатор запущенного процесса:
 
-```shell
+```
 $ brew services stop postgresql
 
 # adjust the path accordingly to your install
