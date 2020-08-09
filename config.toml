@@ -1,4 +1,20 @@
 baseURL = "https://akrisanov.com/"
 languageCode = "ru-ru"
-title = "Заметки (не) разработчика"
+title = "Андрей Крисанов"
 theme = "hyde-hyde"
+
+[params]
+  description = "Заметки (не) разработчика"
+  copyright = "Andrey Krisanov"
+  license = "MIT"
+  relatedPosts = true
+  highlightjs = true
+  highlightjslanguages = ["shell", "python", "go"]
+
+[Menus]
+  main = [
+      {Name = "▶ Заметки", URL = "/posts/"},
+      {Name = "🐙 Github", URL = "https://github.com/akrisanov/"},
+      {Name = "👨🏼‍💻 LinkedIn", URL = "https://www.linkedin.com/in/akrisanov/"},
+      {Name = "🩳 Telegram-канал", URL = "https://t.me/techleadnotes"}
+  ]

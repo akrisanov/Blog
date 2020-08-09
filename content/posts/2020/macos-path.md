@@ -16,7 +16,7 @@ echo $PATH
 
 Допустим, мы хотим добавить каталог `/Users/akrisanov/.local/bin/` к уже существующему списку:
 
-```
+```shell
 /usr/local/bin
 /usr/bin
 /bin
@@ -26,7 +26,7 @@ echo $PATH
 
 Для этого достаточно открыть файл `/etc/paths/` в любом редакторе, например, nano:
 
-```
+```shell
 sudo nano /etc/paths
 ```
 

@@ -10,7 +10,7 @@ draft: false
 
 <!--more-->
 
-```
+```shell
 sync --folder /home/akrisanov/downloads &
 ```
 
