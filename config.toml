@@ -11,10 +11,13 @@ theme = "hyde-hyde"
   highlightjs = true
   highlightjslanguages = ["shell", "python", "go"]
 
+[params.social]
+  twitter = "akrisanov"
+  github = "akrisanov"
+  linkedin = "akrisanov"
+
 [Menus]
   main = [
-      {Name = "▶ Заметки", URL = "/posts/"},
-      {Name = "🐙 Github", URL = "https://github.com/akrisanov/"},
-      {Name = "👨🏼‍💻 LinkedIn", URL = "https://www.linkedin.com/in/akrisanov/"},
+      {Name = "📝 Все заметки", URL = "/posts/"},
       {Name = "🩳 Telegram-канал", URL = "https://t.me/techleadnotes"}
   ]
