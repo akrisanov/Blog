@@ -1,23 +1,45 @@
 baseURL = "https://akrisanov.com/"
-languageCode = "ru-ru"
+languageCode = "ru"
+
 title = "Андрей Крисанов"
 theme = "hyde-hyde"
 
+enableRobotsTXT = true
+paginate = 5
+
 [params]
   description = "Заметки (не) разработчика"
-  copyright = "Andrey Krisanov"
+  authorimage = "/images/avatar.jpg"
+
+  copyright = "akrisanov"
+  since = 2018
   license = "MIT"
+  licenseURL = "https://github.com/akrisanov/blog/blob/master/LICENSE"
+
   relatedPosts = true
+
   highlightjs = true
-  highlightjslanguages = ["shell", "python", "go"]
+  highlightjsstyle = "vs"
+  highlightjslanguages = ["go", "python", "shell"]
 
 [params.social]
   twitter = "akrisanov"
   github = "akrisanov"
   linkedin = "akrisanov"
+  telegram = "akrisanov"
 
 [Menus]
   main = [
       {Name = "📝 Все заметки", URL = "/posts/"},
       {Name = "🩳 Telegram-канал", URL = "https://t.me/techleadnotes"}
   ]
+
+[mmark]
+  smartypants = true
+
+[markup]
+  [markup.highlight]
+    codeFences = false
+
+[permalinks]
+  posts = "/:year/:month/:day/:filename/"
